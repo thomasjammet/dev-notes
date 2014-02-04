@@ -1,9 +1,5 @@
 Welcome to Dev-Notes
 ==============================================
 
-Contents:
-
-.. toctree::
-	
-	./JTrayNotes/doc/index
+`Documentation <JTrayNotes/doc/index.rst>`_
   
