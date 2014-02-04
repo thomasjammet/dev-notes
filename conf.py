@@ -40,7 +40,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'README'
 
 # General information about the project.
 project = u'dev-notes'
@@ -97,7 +97,7 @@ pygments_style = 'sphinx'
 
 # Grouping the document tree into PDF files
 pdf_documents = [
-  ('index', project, "%s %s Documentation" % (project, version), 'TJ'),
+  ('README', project, "%s %s Documentation" % (project, version), 'TJ'),
 ]
 
 # -- Options for HTML output ----------------------------------------------
@@ -133,7 +133,7 @@ html_theme = 'default'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -202,7 +202,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'dev-notes.tex', u'dev-notes Documentation',
+  ('README', 'dev-notes.tex', u'dev-notes Documentation',
    u'TJ', 'manual'),
 ]
 
@@ -232,7 +232,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'dev-notes', u'dev-notes Documentation',
+    ('README', 'dev-notes', u'dev-notes Documentation',
      [u'TJ'], 1)
 ]
 
@@ -246,7 +246,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'dev-notes', u'dev-notes Documentation',
+  ('README', 'dev-notes', u'dev-notes Documentation',
    u'TJ', 'dev-notes', 'One line description of project.',
    'Miscellaneous'),
 ]
