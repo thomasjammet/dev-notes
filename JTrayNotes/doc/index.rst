@@ -1,4 +1,4 @@
-.. contents::
+.. contents:: Table of Contents
 
 What is dev-notes?
 =====================
