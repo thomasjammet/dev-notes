@@ -1,5 +1,14 @@
 Welcome to Dev-Notes
 ==============================================
 
-`Documentation <JTrayNotes/doc/index.rst>`_
+This is an old personal and not finished project written in Java.
+
+Dev-Notes allows to write notes in a simple way and save them automatically. 
+
+*Features :*
+
+- event reminder
+- automatic saves
+
+See `Documentation <JTrayNotes/doc/index.rst>`_ to see more informations on this project.
   
