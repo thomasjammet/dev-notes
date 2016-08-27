@@ -5,6 +5,8 @@ This is an old personal and not finished project written in Java.
 
 Dev-Notes allows to write notes in a simple way and save them automatically. 
 
+This is a test
+
 *Features :*
 
 - Event reminder
